@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+#container {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+}
+
+/* Paragraph styling */
+section p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Unordered list styling */
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+/* List items styling */
+ul li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Remove border from last list item */
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    background-color: lightblue;
+}
+
+/* Grid container styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Grid items styling */
+.grid-item {
+    background-color: lightgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    padding: 10px 0;
+}
